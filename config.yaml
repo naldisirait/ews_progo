@@ -1,0 +1,11 @@
+# config.yaml
+model:
+  input_size_ml2: 24
+  path_hujan_hist_72jam: "./data/hujan_72_jam.pkl"
+  path_trained_ml1_f13: "./models/discharge/Hasil eksperimen Ml 1 best f13.pth"
+  path_trained_ml1_f11: "./models/discharge/Hasil eksperimen Ml 1 forecast 11 best.pth"
+  path_trained_ml2: "./models/inundation/CNN Kabir 100 epoch 44 kasus Augmented.pth"
+
+data_processing:
+  gsmap_correction_factor_path: "./data/correction factors.pkl"
+  path_hujan_hist_72jam: "./data/hujan_72_jam.pkl"
